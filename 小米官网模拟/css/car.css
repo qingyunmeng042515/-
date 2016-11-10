@@ -1,0 +1,73 @@
+/*顶部*/
+.top_box{width:100%;height:100px;border-bottom: 2px solid #FA6700;}
+.top{height:100px;width:1226px;margin:0 auto;}
+.top .logo{float:left;margin-top:26px;}
+.top .logo img{width:49px;height:49px;}
+.mycar{width:491px;height:48px;float:left;margin-top:26px;margin-left:45px;line-height:48px;}
+.mycar h1,p{display: inline-block;}
+.mycar h1{font-size:26px;font-weight: normal;margin-right: 15px;color:#424242}
+.mycar p{color:#757575;}
+.sign{float:right;}
+.sign ul li{float:left;padding:0 5px;line-height:100px;}
+/*结算区*/
+.car_box{width:100%;background:#f5f5f5;overflow: hidden;}
+.car{width:1226px;margin:40px auto;overflow: hidden;}
+.goodsList{width:100%;background:#fff;}
+.head{width:100%;overflow:hidden;border-bottom:1px solid #e0e0e0;}
+.allSelect,.name,.onePrice,.number,.xiaoji,.opa{float:left;height:69px;background:#fff;line-height: 69px;font-size:14px;}
+.allSelect{width:230px;text-indent:25px;}
+.allSelect input{line-height:69px;height:69px;}
+.name{width:430px;}
+.onePrice{width:170px;}
+.number{width:180px;}
+.xiaoji{width:135px;}
+.opa{width:81px;}
+.list li{height:115px;background:#fff;}
+.list .oneCheck .proName,.proPrice,.checkOne,.proNum,.thisPrice,.del,input,img{float:left;height:115px;line-height: 115px;font-size:16px;}
+.oneCheck .checkOne{width:140px;}
+.list .oneCheck .proName{width:400px;font-size:26px;}
+.proPrice{width:130px;}
+.proNum{width:148px;height:38px;border:1px solid #e0e0e0;overflow: hidden;margin-top:35px;line-height:38px;text-align: center;}
+.proNum .reduce{width:60px;height:38px;float:left;cursor: pointer;font-size:20px;}
+.proNum .add{width:60px;height:38px;float:right;cursor: pointer;font-size:20px;}
+.proNum span:hover{color:#FA6700;}
+.thisPrice{margin-left:70px;color:#FA6700}
+.del{margin-left:115px;cursor: pointer;font-size:24px;}
+.del:hover{color:#FA6700;}
+.jiesuan{margin-top:20px;background:#fff;width:100%;height:50px;}
+.jiesuan .pay{float:right;width:200px;height:50px;line-height:50px;background:#FA6700;text-align: center;color:#fff;font-size:16px;}
+.jiesuan .allPrice{width:300px;height:50px;float:right;background:#fff;text-align: center;line-height: 50px;color:#FA6700;font-size:14px;}
+.tishi{width:450px;height:230px;margin:40px auto;position:relative;border:1px solid #FA6700;text-align:center;}
+.tishi h1{margin-top:50px;}
+.gouwu{width:110px;height:50px;background:#FA6700;text-align: center;line-height: 50px;color:#fff;position: absolute;left:50%;margin-left:-55px;bottom:30px;}
+.gouwu a{color:#fff;font-size:20px;}
+
+
+/*--footer--*/
+.footer{width:1226px;height:272px;background:#fff;margin:0 auto;margin:0 18.5px;}
+.footer_t{height:80px;overflow:hidden;border-bottom:1px solid #ccc;}
+.footer_t ul{height:25px;width:1226px;margin:27px 0;}
+.footer_t li{width:244px;height:25px;float:left;text-align:center;line-height:25px;border-right:1px solid #ccc;}
+.footer_t li a{width:150px;height:25px;margin:0 auto;display:block;}
+.footer_t .none{border:none;}
+.footer_t li p:hover{color:#ff7314;}
+.footer_t li img{float:left;margin-right:10px;width:24px;height:24px;}
+.footer_t li p{float:left;color:#616161;font-size:14px;}
+.footer_b{height:112px;margin:40px 0;}
+.footer_b dl{width:160px;height:112px;float:left;}
+.footer_b dl dt{font-weight:bold;margin-bottom:15px;}
+.footer_b dl dd{line-height:30px;}
+.footer_b dl dd:hover{color:#ff7314;}
+.footer_b .footer_b_r{width:265px;height:112px;float:left;border-left:1px solid #ccc;text-align:center;}
+.footer_b_r .phone{font-size:16px;color:#ff7314;line-height:30px;}
+.footer_b_r a{width:120px;height:30px;border:1px solid #ff7314;display:block;margin-top:19px;margin-left:72px;line-height:30px;color:#ff7314;}
+.footer_b_r a:hover{background:#ff7314;color:#fff;}
+/*--bottom--*/
+.bottom{width:1226px;height:57px;padding:55px 18.5px;background:#fafafa url(../images/logo.jpg) no-repeat 18.5px center;}
+.bottom_l{width:710px;height:57px;margin-left:67px;float:left;}
+.bottom_l .color{color:#b0b0b0;}
+.bottom_l .color a{color:#b0b0b0;}
+.bottom_l p a:hover{color:#ff7314;}
+.bottom_r{width:375px;height:57px;float:right;}
+.bottom_r img{width:90px;height:28px;margin-top:14px;}
+.solo{width:267px;height:19px;margin-top:70px;margin-left:470px;font-size:16px;font-family:"楷体"}

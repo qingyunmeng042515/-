@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css" />
+	<script type="text/javascript" src="js/require.js"></script>
+	<script src="js/config.js"></script>
+	<script>
+		require(["screen"]);
+	</script>
+</head>
+<body>
+	{% include "header.html" %}
+	{% block body %}
+	<section>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>
+		<div class="sound">
+			<a href="#"><img src="http://i4.m.vancl.com/wap/2016_9_13_11_22_35_4479_640x80.jpg" alt="" /></a>
+		</div>
+		<div class="new">
+			<h2>新品推荐</h2>
+		</div>
+		<div class="list">
+			<ul>
+				<li>
+					<a href=""><img class="detail-img" src="" alt="" /></a>
+					<p></p>
+					<h3></h3>
+				</li>
+			</ul>
+		</div>
+	</section>
+	{% endblock %}
+	{% include "footer.html" %}
+	<script type="text/javascript">
+		require(["swiper"],function(){
+			var mySwiper = new Swiper ('.swiper-container', {
+			    direction: 'horizontal',
+			    loop: true,
+			    autoplay: 3000,
+			    // 如果需要分页器
+			    pagination: '.swiper-pagination',
+	 		 }) 
+		});
+	</script>
+	<script>
+		require(["list","replaceS"],function(list,replaceS){
+			list.shoplist(function(result){
+				if(result.success){
+					$("ul",".list").html(1);
+					var html = "";
+					
+					html += '<ul>';
+					var content = '<li>'+
+						'<a href="#{{link}}"><img src="{{src}}" alt="" /></a>'
+						'</li>';
+					result.list.forEach(function(item,i){
+						html += replaceS(content,item);
+					})
+					html += "</ul>";
+					$(".list").html(html);
+				}
+			});
+		})
+		require(["hash","detail","replaceS"],function(hash,detail,replaceS){
+			hash.addroute(/^\/shop\/detail/,function(url){
+				$(".list").html("LOAD...");
+				detail.getDetail(url,function(result){
+					if(result.success){
+						var detail = '<li>'+
+										'<a href="#{{link}}"><img class="detail-img" src="{{src}}" alt="" /></a>'+
+										'<p>{{name}}</p>'+
+										'<h3>{{price}}</h3>'+
+									'</li>';
+						var html = '';
+						html += '<ul>';
+						result.data.forEach(function(item,i){
+							html += replaceS(detail,item);
+						})
+						html += "</ul>";
+						$(".list").html(html);
+					}
+				})
+			})
+
+		})
+		require(["hash","detail","page"],function(hash,detail,page){
+			hash.addroute(/^\/page\/[0-9]+/,function(url){
+				$("list").html("LOAD...");
+				detail.getPage(url,function(result){
+					page.page(result);
+				})
+			})			
+		})
+		require(["hash","detail","main"],function(hash,detail,main){
+			hash.addroute(/^\//,function(url){
+				$("list").html("LOAD...");
+				detail.getMain("/shoplist/list",function(result){
+					main.main(result);
+				})
+			})
+		})
+	</script>
+</body>
+</html>

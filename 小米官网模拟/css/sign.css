@@ -1,0 +1,37 @@
+body{background:#f9f9f9;}
+/*顶部登录*/
+.top{width:100%;height:40px;background:#333333;}
+.container{width:1226px;height:40px;margin:0 auto;}
+.container_l{float: left;overflow: hidden;position: relative;height:40px;width:536px;}
+.container_l ul{width:537px;height:40px;}
+.container_l ul li{float:left;height:40px;line-height:40px;}
+.container_l ul li a{height:13px;padding:0 7px;}
+.container a{color:#b0b0b0;border-right:1px solid #393d42;font-size:12px;}
+.container a:hover{color:#fff;}
+.containe_r{width:205px;height:40px;float:right;}
+.containe_r .zhuce{width:69px;height:40px;float:left;overflow:hidden;}
+.containe_r .zhuce ul{width:70px;}
+.containe_r .zhuce ul li{float:left;line-height:40px;}
+.containe_r .zhuce ul li a{padding:0 5px; }
+.containe_r .car{width:120px;height:40px;background:#424242;float:left;margin-left:16px;position:relative;}
+.containe_r .car img{position: absolute;left:17px;top:14px;}
+.containe_r .car a{position: absolute;left:40px;top:0;height:40px;line-height:40px;border:none;}
+.containe_r .car:hover{background:#fff;} 
+.containe_r .car:hover a{color:#ff7315;}
+.containe_r .car .proIn{width:300px;height:90px;background:#fff;position:absolute;top:40px;right:0;display:none;box-shadow:0px 0px 10px #efefef;text-align:center;line-height: 90px;z-index: 10;;}
+/*注册框*/
+.sign_box{width:860px;height:510px;background:#fff;position: absolute;left:50%;top:50%;margin-left:-430px;margin-top:-255px;}
+.logo{width:49px;height:49px;background:#FA6700;position: absolute;left:50%;top:0;margin-left:-25px;}
+h1{font-size:26px;color:#333333;width:180px;position: absolute;left:50%;margin-left:-90px;top:95px;text-align: center;}
+.input{width:330px;height:40px;position:absolute;left:50%;margin-left:-165px;}
+.input input{width:328px;height:38px;border:1px solid #e0e0e0;outline:none;}
+.input span{color:#FA6700;font-size:14px;}
+.username{top:160px;}
+.pass1{top:220px;}
+.pass2{top:280px;}
+.code{top:340px;}
+.code input{width:200px;float: left;}
+.code .matter{width:98px;height:38px;float: left;margin-left:28px;border:1px solid #e0e0e0;text-align: center;line-height:38px;font-size:24px;cursor: pointer;font-style:italic;color:#FA6700}
+.signin{width:330px;height:40px;background: #FA6700;line-height: 40px;text-align: center;color: #fff;font-size:12px;position: absolute;left:50%;margin-left: -165px;top:400px;cursor: pointer;}
+.sign_box p{width:330px;font-size:10px;color:#9d9d9d;position: absolute;left:50%;margin-left:-165px;bottom:35px;}
+.sign_box p span a {color:#333333;}

@@ -1,0 +1,21 @@
+[
+	{
+		"color":"蓝色",
+		"img":
+			 [
+			 	"images/led1_1.jpg",
+			 	"images/led1_2.jpg",
+			 	"images/led1_3.jpg"
+			 ]
+	}	
+	,
+	{
+			"color":"白色",
+			"img":
+			 [
+			 	"images/led2_1.jpg",
+			 	"images/led2_2.jpg",
+			 	"images/led2_3.jpg"
+			 ]
+	}
+]

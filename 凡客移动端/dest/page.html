@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+	<script type="text/javascript" src="js/require.js"></script>
+	<script src="js/config.js"></script>
+	</head>
+	<body>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>	
+	<script>
+		require(["zepto","swiper"],function($,swiper){
+			var mySwiper = new Swiper ('.swiper-container', {
+			    direction: 'horizontal',
+			    loop: true,
+			    autoplay: 3000,
+			    pagination: '.swiper-pagination',
+	 		}) 	;	
+		})		
+		require(["pagelist"],function(list){
+			list.list();
+		})
+	</script>
+
+	</body>
+</html>

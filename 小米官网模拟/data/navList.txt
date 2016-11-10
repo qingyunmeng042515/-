@@ -1,0 +1,204 @@
+[
+	[//小米手机
+		{
+			"proUrl":"images/xiaomi1.jpg",
+			"proName":"小米Max",
+			"proPrice":"1499元起"
+		},
+		{
+			"proUrl":"images/xiaomi2.jpg",
+			"proName":"小米手机5",
+			"proPrice":"1999元起"
+		},
+		{
+			"proUrl":"images/xiaomi3.jpg",
+			"proName":"小米4c",
+			"proPrice":"1099元起"
+		}
+	]
+	,
+	[//红米
+		{
+			"proUrl":"images/hongmi1.jpg",
+			"proName":"红米note3",
+			"proPrice":"899元起"
+		},
+		{
+			"proUrl":"images/hongmi1.jpg",
+			"proName":"红米手机3s",
+			"proPrice":"699元起"
+		},
+		{
+			"proUrl":"images/hongmi1.jpg",
+			"proName":"红米手机3",
+			"proPrice":"699元起"
+		}
+		,
+		{
+			"proUrl":"images/hongmi2.jpg",
+			"proName":"红米pro",
+			"proPrice":"1499元起"
+		}
+	]
+	,
+	[//平板·笔记本
+		{
+			"proUrl":"images/pingban1.jpg",
+			"proName":"小米平板2 16GB",
+			"proPrice":"999元起"
+		},
+		{
+			"proUrl":"images/pingban1.jpg",
+			"proName":"小米平板2 64GB",
+			"proPrice":"1299元起"
+		},
+		{
+			"proUrl":"images/pingban2.jpg",
+			"proName":"小米平板2 64GB windows版",
+			"proPrice":"1299元起"
+		}
+		,
+		{
+			"proUrl":"images/pingban3.jpg",
+			"proName":"小米笔记本Air 12.5”",
+			"proPrice":"3499元起"
+		},
+		{
+			"proUrl":"images/pingban3.jpg",
+			"proName":"小米笔记本Air 13.3”",
+			"proPrice":"4999元起"
+		}
+	]
+	,
+	[//电视
+		{
+			"proUrl":"images/tele1.jpg",
+			"proName":"小米电视3S 43英寸",
+			"proPrice":"1499元起"
+		},
+		{
+			"proUrl":"images/tele2.jpg",
+			"proName":"小米电视3S 48英寸",
+			"proPrice":"1999元起"
+		},
+		{
+			"proUrl":"images/tele3.jpg",
+			"proName":"小米电视3 55英寸",
+			"proPrice":"3299元起"
+		}
+		,
+		{
+			"proUrl":"images/tele4.jpg",
+			"proName":"小米电视3 60英寸",
+			"proPrice":"4299元起"
+		},
+		{
+			"proUrl":"images/tele5.jpg",
+			"proName":"小米电视3S 65英寸 曲面",
+			"proPrice":"8999元"
+		},
+		{
+			"proUrl":"images/tele6.jpg",
+			"proName":"小米电视3 70英寸",
+			"proPrice":"9999元"
+		}
+	]
+	,
+	[//盒子·影音
+		{
+			"proUrl":"images/hezi1.png",
+			"proName":"小米盒子mini版",
+			"proPrice":"179元"
+		},
+		{
+			"proUrl":"images/hezi2.png",
+			"proName":"小米盒子3",
+			"proPrice":"249元"
+		},
+		{
+			"proUrl":"images/hezi3.png",
+			"proName":"小米盒子3 增强版",
+			"proPrice":"399元"
+		}
+		,
+		{
+			"proUrl":"images/hezi4.png",
+			"proName":"小米电视主机",
+			"proPrice":"999元"
+		},
+		{
+			"proUrl":"images/hezi5.png",
+			"proName":"小米家庭音响 金属版",
+			"proPrice":"899元"
+		},
+		{
+			"proUrl":"images/hezi6.png",
+			"proName":"小米家庭音响 标准版",
+			"proPrice":"699元"
+		}
+	]
+	,
+	[//路由器
+		{
+			"proUrl":"images/luyou1.jpg",
+			"proName":"全新小米路由器",
+			"proPrice":"699元起"
+		},
+		{
+			"proUrl":"images/luyou2.jpg",
+			"proName":"小米路由器 3",
+			"proPrice":"149元"
+		},
+		{
+			"proUrl":"images/luyou3.jpg",
+			"proName":"小米路由器 mini",
+			"proPrice":"129元"
+		}
+		,
+		{
+			"proUrl":"images/luyou4.jpg",
+			"proName":"小米路由器 青春版",
+			"proPrice":"79元"
+		},
+		{
+			"proUrl":"images/luyou5.jpg",
+			"proName":"小米WiFi放大器",
+			"proPrice":"39元"
+		}
+	]
+	,
+	[//智能硬件
+		{
+			"proUrl":"images/yingjian1.jpg",
+			"proName":"九号平衡车",
+			"proPrice":"1999元"
+		},
+		{
+			"proUrl":"images/yingjian2.jpg",
+			"proName":"小米净水器",
+			"proPrice":"1299元起"
+		},
+		{
+			"proUrl":"images/yingjian3.jpg",
+			"proName":"米家压力IH电饭煲",
+			"proPrice":"999元"
+		}
+		,
+		{
+			"proUrl":"images/yingjian4.jpg",
+			"proName":"小米空气净化器 2",
+			"proPrice":"699元"
+		},
+		{
+			"proUrl":"images/yingjian5.jpg",
+			"proName":"摄像机",
+			"proPrice":"149元"
+		}
+		,
+		{
+			"proUrl":"images/yingjian6.jpg",
+			"proName":"查看全部",
+			"proPrice":"智能硬件"
+		}
+	]
+]

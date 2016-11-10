@@ -1,0 +1,20 @@
+/*顶部登录*/
+.top{width:100%;height:40px;background:#333333;}
+.top .contain{width:1226px;height:40px;margin:0 auto;}
+.top .contain_l{float: left;overflow: hidden;position: relative;height:40px;width:536px;}
+.top .contain_l ul{width:537px;height:40px;}
+.top .contain_l ul li{float:left;height:40px;line-height:40px;}
+.top .contain_l ul li a{height:13px;padding:0 7px;}
+.top .contain a{color:#b0b0b0;border-right:1px solid #393d42;font-size:12px;}
+.top .contain a:hover{color:#fff;}
+.top .contain_r{width:205px;height:40px;float:right;}
+.top .contain_r .zhuce{width:69px;height:40px;float:left;overflow:hidden;}
+.top .contain_r .zhuce ul{width:70px;}
+.top .contain_r .zhuce ul li{float:left;line-height:40px;}
+.top .contain_r .zhuce ul li a{padding:0 5px; }
+.top .contain_r .car{width:120px;height:40px;background:#424242;float:left;margin-left:16px;position:relative;}
+.top .contain_r .car img{position: absolute;left:17px;top:14px;}
+.top .contain_r .car a{position: absolute;left:40px;top:0;height:40px;line-height:40px;border:none;}
+.top .contain_r .car:hover{background:#fff;} 
+.top .contain_r .car:hover a{color:#ff7315;}
+.top .contain_r .car .proIno{width:300px;height:90px;background:#fff;position:absolute;top:40px;right:0;display:none;box-shadow:0px 0px 10px #efefef;text-align:center;line-height: 90px;z-index: 10;;}

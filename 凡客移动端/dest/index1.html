@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css" />
+	<script type="text/javascript" src="js/require.js"></script>
+	<script src="js/config.js"></script>
+	<script>
+		require(["screen"]);
+	</script>
+</head>
+<body>
+	<header>
+		<div id="top">
+			<form action="#" class="search">
+				<input type="submit" class="search-btn" value=""/>
+				<input type="text" class="search-input"placeholder="穆旦"/>
+			</form>
+			<a href="#" class="top-a">
+				<span></span>
+			</a>
+		</div>
+	</header>
+	<section id="section">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="http://i6.m.vancl.com/wap/2016_10_17_16_20_34_6583_640x402.jpg" alt="" /></div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>
+		<div class="sound">
+			<a href="#"><img src="http://i4.m.vancl.com/wap/2016_9_13_11_22_35_4479_640x80.jpg" alt="" /></a>
+		</div>
+		<div class="new">
+			<h2>新品推荐</h2>
+		</div>
+			<div class="list">
+				<ul>
+					<li v-for="item in list">
+						<a v-bind:href="'#'+item.link">
+							<img v-bind:src="item.src"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+		<div class="list1" v-show="list1"></div>
+		<div class="list2" v-show="list2"></div>
+	</section>
+	<footer>
+		<div id="footer">
+			<div class="item"><a href="#/">首页</a></div>
+			<div class="item">分类</div>
+			<div class="item">衬衫</div>
+			<div class="item">购物车</div>
+			<div class="item">我的</div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		require(["swiper"],function(){
+			var mySwiper = new Swiper ('.swiper-container', {
+			    direction: 'horizontal',
+			    loop: true,
+			    autoplay: 3000,
+			    // 如果需要分页器
+			    pagination: '.swiper-pagination',
+	 		 }) 
+		});
+	</script>
+	<script>
+		require(["fanke/core","hash","fanke/libiao","fanke/xiangqing","fanke/vue"],function(core,hash,libiao,xiangqing,Vue){
+			var app = new Vue({
+				el: '#section',
+				data: {
+					list0: true,
+					list1: false,
+					list2: false,
+				}
+			})
+			hash.addroute(/^\/shop\/detail/,function(url){
+				libiao(url);
+				/*app.$data.list = false;
+				app.$data.list1 = true;
+				app.$data.list2 = false;*/
+			})
+			hash.addroute(/^\/page\/[0-9]+/,function(url){
+				xiangqing(url);
+				/*app.$data.list = false;
+				app.$data.list1 = false;
+				app.$data.list2 = true;*/
+			})
+			/*hash.addroute(/^\/$|\s/,function(){
+				app.$data.list = true;
+				app.$data.list1 = false;
+				app.$data.list2 = false;				
+			})*/
+		});
+		
+	</script>
+</body>
+</html>

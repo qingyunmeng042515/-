@@ -1,0 +1,113 @@
+/*顶部登录*/
+.top{width:100%;height:40px;background:#333333;}
+.container{width:1226px;height:40px;margin:0 auto;}
+.container_l{float: left;overflow: hidden;position: relative;height:40px;width:536px;}
+.container_l ul{width:537px;height:40px;}
+.container_l ul li{float:left;height:40px;line-height:40px;}
+.container_l ul li a{height:13px;padding:0 7px;}
+.container a{color:#b0b0b0;border-right:1px solid #393d42;font-size:12px;}
+.container a:hover{color:#fff;}
+.containe_r{width:205px;height:40px;float:right;}
+.containe_r .zhuce{width:69px;height:40px;float:left;overflow:hidden;}
+.containe_r .zhuce ul{width:70px;}
+.containe_r .zhuce ul li{float:left;line-height:40px;}
+.containe_r .zhuce ul li a{padding:0 5px; }
+.containe_r .car{width:120px;height:40px;background:#424242;float:left;margin-left:16px;position:relative;}
+.containe_r .car img{position: absolute;left:17px;top:14px;}
+.containe_r .car a{position: absolute;left:40px;top:0;height:40px;line-height:40px;border:none;}
+.containe_r .car:hover{background:#fff;} 
+.containe_r .car:hover a{color:#ff7315;}
+.containe_r .car .proIn{width:300px;height:90px;background:#fff;position:absolute;top:40px;right:0;display:none;box-shadow:0px 0px 10px #efefef;text-align:center;line-height: 90px;z-index: 10;;}
+
+/*导航栏*/
+.nav_box{width:100%;height:100px;position:relative;}
+.nav{width:1226px;height:100px;margin:0 auto;}
+.mi_logo{background:#ff6700;width:55px;height:55px;text-align:center;line-height: 55px;float:left;margin-top:22px;position:relative;}
+.mi_logo img{position: absolute;left:50%;margin-left:-25px;top:50%;margin-top:-25px;}
+.nav_list{float:left;margin-left:180px;}
+.nav_list .pro_list li{float:left;padding:0 10px;line-height:100px;font-size:14px;color:#333333;}
+.nav_list .pro_list li a:hover{color:#ff6700;}
+.search{width:296px;height:50px;background:#fff;float:right;margin-top:25px;position:relative;}
+.search input{border: 1px solid #e0e0e0;outline:none;border-right:none;width:243px;height:48px;float:left;line-height:48px;font-size:20px;}
+.search .loupe{width:50px;height:48px;border: 1px solid #e0e0e0;float:left;text-align:center;line-height:48px;}
+.search .loupe:hover{background:#ff6700;border:1px solid #ff6700;}
+.hotPro{width:160px;height:18px;position:absolute;left:90px;top:16px;}
+.hotPro li{float:left;margin:0 5px;height:18px;width:67px;line-height:18px;text-align: center;background:#eeeeee;}
+.hotPro li a{color:#757575;font-size:11px;}
+.hotPro li:hover{background: #ff6700;}
+.hotPro li a:hover{color:#fff;}
+.clicked{width:243px;border:1px solid #ff6700;border-top:none;z-index: 10;display:none;position:absolute;top:50px;left:0;background:#fff;}
+.clicked li{padding-left:10px;height:28px;line-height:28px;}
+.clicked li span{float:right;color:#D1D1D1;margin-right:10px;}
+.clicked li:hover{background:#EEEEEE;}
+.hidePro{width:100%;height:205px;position:absolute;border-top:1px solid #e#EDEDED;top:100px;left:0;box-shadow: 0px 5px 15px #cfcfcf;display:none;z-index:99;background:#fff;}
+.hidePro ul{width:1225px;margin:0 auto;padding-left:30px;}
+.hidePro li{float:left;text-align: center;}
+.hidePro li span{width:100%;float:left;color:#ff6700;}
+.hidePro li .proPic{border-right:1px solid #e0e0e0;margin-top:35px;}
+/*位置*/
+.location_box{height:60px;width:100%;background: #f5f5f5;position: relative;}
+.location{height:60px;width:1226px;margin: 0 auto;line-height:60px;color:#757575;position: relative;}
+.location a{color:#757575;}
+.location a:hover{color:#000;}
+/*全部商品列表*/
+.banner_list{width:234px;height:460px;background:#fff;position: absolute;left:0;top:0;z-index:20;border:1px solid #FA6700;display: none;;}
+.banner_list .list_l{height:420px;font-size:14px;margin-top:20px;}
+.banner_list .list_l li{text-indent: 30px;height:42px;line-height:42px;cursor: pointer;}
+.banner_list .list_l li:hover{background:#ff6700;}
+.banner_list .list_l li a{color:#000;font-size:14px;}
+.banner_list .list_l li span{float:right;margin-right:23px;color:#e0e0e0;}
+.pro_container{height:459px;border-top:1px solid #ededed;background:#fff;position:absolute;left:234px;top:0;z-index:55;display:none;box-shadow: 5px 5px 5px #ededed;}
+.pro_container .list_r{width:250px;}
+/*列表*/
+.list_box{width:100%;background:#f5f5f5;}
+.zhoubian_list{width:1226px;background:#f5f5f5;margin:0 auto;}
+.zhoubian_list ul{overflow:hidden;width:1240px;}
+.zhoubian_list ul li{width:296px;height:430px;background:#fff;margin:0 14px 14px 0;float:left;position: relative;}
+.zhoubian_list ul li .large{width:200px;height:200px;position: absolute;top:50px;left:50px;}
+.small{height:36px;width:100%;position:absolute;top:345px;left:0;text-align:center;overflow: hidden;}
+.small img{display: inline;width:34px;height:34px;border:1px solid #e0e0e0;cursor: pointer;}
+.small img:hover{border-color:#FA6700;}
+.zhoubian_list ul li p{position: absolute;left:0;top:288px;width:100%;text-align: center;}
+.zhoubian_list ul li span{display: block;width: 100%;position: absolute;top:313px;text-align: center;color:#FA6700}
+
+/*有种向下浮动的感觉，给父级元素定位bottom，设子级元素浮动，用自己元素的高度撑起父级元素的高度，有种向下浮动的感觉*/
+.twoBox{width:100%;position: absolute;bottom: 0;left:0;}
+.red,.yellow{width:100%;float:left;text-align: center;line-height: 20px;color:#fff;}
+.red{background: #e53935;}
+.yellow{background:#ffac13;}
+
+.zhoubian_list ul li b{font-weight: normal;display: none;}
+.like{position: absolute;left:25px;top:25px;cursor: pointer;display: none;}
+.addCar{position: absolute;right:25px;top:25px;cursor: pointer;display: none;}
+.zhoubian_list ul li:hover .like{display: block;}
+.zhoubian_list ul li:hover .addCar{display: block;}
+/*--footer--*/
+.footer{width:1226px;height:272px;background:#fff;margin:50px auto;}
+.footer_t{height:80px;overflow:hidden;border-bottom:1px solid #ccc;}
+.footer_t ul{height:25px;width:1226px;margin:27px 0;}
+.footer_t li{width:244px;height:25px;float:left;text-align:center;line-height:25px;border-right:1px solid #ccc;}
+.footer_t li a{width:150px;height:25px;margin:0 auto;display:block;}
+.footer_t .none{border:none;}
+.footer_t li p:hover{color:#ff7314;}
+.footer_t li img{float:left;margin-right:10px;}
+.footer_t li p{float:left;color:#616161;font-size:14px;}
+.footer_b{height:112px;margin:40px 0;}
+.footer_b dl{width:160px;height:112px;float:left;}
+.footer_b dl dt{font-weight:bold;margin-bottom:15px;}
+.footer_b dl dd{line-height:30px;}
+.footer_b dl dd:hover{color:#ff7314;}
+.footer_b .footer_b_r{width:265px;height:112px;float:left;border-left:1px solid #ccc;text-align:center;}
+.footer_b_r .phone{font-size:16px;color:#ff7314;line-height:30px;}
+.footer_b_r a{width:120px;height:30px;border:1px solid #ff7314;display:block;margin-top:19px;margin-left:72px;line-height:30px;color:#ff7314;}
+.footer_b_r a:hover{background:#ff7314;color:#fff;}
+/*--bottom--*/
+.bottom{width:1226px;height:57px;padding:55px 18.5px;background:#fafafa url(../images/logo.jpg) no-repeat 18.5px center;}
+.bottom_l{width:710px;height:57px;margin-left:67px;float:left;}
+.bottom_l .color{color:#b0b0b0;}
+.bottom_l .color a{color:#b0b0b0;}
+.bottom_l p a:hover{color:#ff7314;}
+.bottom_r{width:375px;height:57px;float:right;}
+.bottom_r img{width:90px;height:28px;margin-top:14px;}
+.solo{width:267px;height:19px;margin-top:70px;margin-left:470px;font-size:16px;font-family:"楷体"}
+
